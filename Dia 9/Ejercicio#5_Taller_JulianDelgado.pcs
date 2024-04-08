@@ -1,0 +1,31 @@
+Algoritmo Brayan_Y_Su_Auto
+	// Primero defino los datos 
+	Definir PrecioTotal , Precio_Alquiler, Kilometros, A, B  como real 
+	// luego agrego Repetir para que se pueda usar el programa otra vez
+	Repetir
+		// Solicito los datos a calcular
+		Escribir "Ingresar el precio total del uso del vehiculo"
+		leer PrecioTotal
+		
+		Escribir "Ingrese cuanto cuesta un dia de alquiler de un vehiculo"
+		Leer Precio_Alquiler
+		
+		Escribir "Ingrese el precio que tiene un kilometro"
+		Leer kilometros 
+		// empleo la formula para sacar el resultado
+		a = PrecioTotal - Precio_Alquiler
+		b = (a / Kilometros) 
+		
+		Escribir "Los kilometros que usted recorrio fueron ",  b "Km"
+		Escribir "Desea ingresar nuevamente los datos" 
+		Escribir "Sip o Nop"
+		leer respuesta
+	Hasta Que respuesta = "Nop"
+	Escribir "Programa finalizado" 
+	// Finalizo el ciclo de repeticion 
+
+	
+	
+
+	
+FinAlgoritmo
